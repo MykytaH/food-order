@@ -307,3 +307,9 @@ h1 {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 584px) {
+  #main-header #title h1 {
+    display: none;
+  }
+}
